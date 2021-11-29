@@ -1,33 +1,32 @@
 List messages = [
   {
     'name': 'Akshit Madan',
-    'time': DateTime.now(),
-    'text': 'Hey how are you?',
-    'uid': 1234
+    'uid': 1234,
+    'text': 'Hey, How are you?',
+    'time': DateTime.now()
   },
   {
     'name': 'Aasif Ansari',
-    'time': DateTime.now().subtract(const Duration(seconds: 10)),
-    'text':
-        'I am going to London this week...Do you want to come with me there',
-    'uid': 1235
+    'uid': 1235,
+    'text': 'I am going to London, next week...',
+    'time': DateTime.now().subtract(Duration(seconds: 10))
   },
   {
     'name': 'Karan Lakhwani',
-    'time': DateTime.now().subtract(const Duration(seconds: 20)),
-    'text': 'Today is the best day to visit the zoo.',
-    'uid': 1236
+    'uid': 1236,
+    'text': 'Today, is the best day to visit the zoo',
+    'time': DateTime.now().subtract(Duration(seconds: 20))
   },
   {
     'name': 'Akshit Madan',
-    'time': DateTime.now().subtract(const Duration(seconds: 30)),
-    'text': 'Hmmm, Let me think about it.',
-    'uid': 1234
+    'uid': 1234,
+    'text': 'Let me think about it.',
+    'time': DateTime.now().subtract(Duration(seconds: 30))
   },
   {
     'name': 'Akshit Madan',
-    'time': DateTime.now().subtract(const Duration(seconds: 40)),
-    'text': 'May be you are right.',
-    'uid': 1234
-  },
+    'uid': 1234,
+    'text': 'May be you are right..',
+    'time': DateTime.now().subtract(Duration(seconds: 40))
+  }
 ];

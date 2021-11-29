@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_ui/pages/chatscreen.dart';
-import 'package:flutter_chat_ui/utils/colors.dart';
 
-void main() {
-  runApp(new MyApp());
-}
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -12,9 +9,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(brightness: Brightness.dark),
       home: ChatScreen(),
-      theme: ThemeData(
-          brightness: Brightness.dark, primaryColor: AppColors.primaryColor),
     );
   }
 }
